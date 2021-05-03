@@ -1,0 +1,110 @@
+
+  html{
+      background: url(https://cdn.wallpapersafari.com/81/35/GBIMmL.jpg);
+      background-size: cover;
+  }
+  body{
+      color:white;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  #title{
+      text-align: center;
+      font-family:cursive;
+      font-size:29px;
+      color:rgb(185, 8, 8);
+      margin: 2px 5px 5px 5px;
+      padding-top: 2vh;
+      text-shadow: 4px -2px 2px rgb(255, 2, 2);
+  }
+
+#image{
+    opacity:.85;
+    width:100%;
+    height: auto;
+    max-width: 385px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 6%;
+    display:block;
+}
+
+#img-caption{
+    font-family: 'Courier New', Courier, monospace;
+    color:ivory;
+    font-size: 15px;
+    text-shadow: none;
+}
+#attribute-info{
+    padding:17px;
+   white-space: normal;
+}
+#attribute-info article{
+     background-color:rgba(1,1,1,0.4);/* Used opacity 0.5 inside rgba for semi-transparent black bacground*/
+}
+
+h2{
+    color:hsl(0, 95%, 39%);
+    font-weight: 800;
+    padding:7px;
+    margin-left: 20px;
+    font-size: 2.4vmax;
+}
+
+u {
+    text-decoration: underline;
+    color:rgb(119, 245, 167);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+li{
+    line-height: 1.8em;
+}
+
+footer{
+    font-style: italic;
+    font-weight: bolder;
+    color:rgb(255, 251, 10);
+    padding:10px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.8px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 217, 255);
+}
+a:hover{
+    color:wheat;
+    font-size:17px;
+    font-weight: 700;
+}
+#tribute-link{
+    padding:7px;
+}
+
+#goTop{
+    height: 8vh;
+    width: 4vw;
+    float: right;
+    padding:13px;
+    position: fixed;
+    bottom: 1px;
+    right:1px;
+    opacity: .7;
+}
+
+/*Please let me know if this method for responsive style is correct or not?
+I have used the px dimension of big mobile screen. 820px by 420px 
+@media(max-height:820px) {                            
+  body{
+    height: auto;
+  }
+}
+@media(max-width:420px) {
+  body{
+   width: 95%;
+}
+}*/
